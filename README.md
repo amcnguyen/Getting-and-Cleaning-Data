@@ -1,5 +1,7 @@
 
-# Getting-and-Cleaning-Data - Course Project - README.MD
+# Getting-and-Cleaning-Data 
+## Course Project 
+### README.MD
 
 ***
 
