@@ -1,11 +1,11 @@
 
 # Getting-and-Cleaning-Data 
-## Course Project 
+## Course project 
 ### README.MD
 
 ***
 
-#### Purpose of Project:
+#### Purpose of project:
 
 Demonstrate your ability to collect, work with, and clean a data set.
 
@@ -15,14 +15,14 @@ Demonstrate your ability to collect, work with, and clean a data set.
 
 Submit the link to a Github repository that contains the following items:
 
-1. a tidy data set that can be used for analysis ( tidyDataset.txt )
-2. a script for performing the analysis ( run_analysis.R )
-3. a document that describes the variables, the data, and any transformations ( CODEBOOK.md ).
-4. a document that explains how all of the scripts work and how they are connected ( README.md). 
+1. a tidy data set that can be used for analysis ( __tidyDataset.txt__ )
+2. a script for performing the analysis ( __run_analysis.R__ )
+3. a document that describes the variables, the data, and any transformations ( __CODEBOOK.md__ ).
+4. a document that explains how all of the scripts work and how they are connected ( __README.md__ ). 
 
 ***
 
-#### Step-by-Step description of run_analysis.R Script:
+#### Step-by-step description of run_analysis.R script:
 
 1. Merge the training and the test datasets to create one dataset.
 2. Extract only the measurements on the mean and standard deviation for each measurement. 
@@ -34,7 +34,7 @@ Note: Upload the dataset as a .txt file created with write.table() using row.nam
 
 ***
 
-#### Data Source Information:
+#### Data source Information:
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.
  
@@ -49,7 +49,7 @@ Detailed information about the original Data Source can be found by following th
 
 ***
 
-#### Data files Information:
+#### Data files information:
 
 * 'README.txt'
 
@@ -81,7 +81,7 @@ Detailed information about the original Data Source can be found by following th
 
 ***
 
-#### Attribute Information:
+#### Attribute information:
 
 For each record in the dataset it is provided: 
 
