@@ -15,14 +15,14 @@ Demonstrate your ability to collect, work with, and clean a data set.
 
 Submit the link to a Github repository that contains the following items:
 
-1. a tidy data set that can be used for analysis
+1. a tidy data set that can be used for analysis ( tidyDataset.txt )
 2. a script for performing the analysis ( run_analysis.R )
 3. a document that describes the variables, the data, and any transformations ( CODEBOOK.md ).
 4. a document that explains how all of the scripts work and how they are connected ( README.md). 
 
 ***
 
-#### Step-by-Step of the Analysis Script:
+#### Step-by-Step description of run_analysis.R Script:
 
 1. Merge the training and the test datasets to create one dataset.
 2. Extract only the measurements on the mean and standard deviation for each measurement. 
@@ -67,24 +67,17 @@ Detailed information about the original Data Source can be found by following th
 
 * 'test/y_test.txt': Test labels.
 
-
-The following files are available for the train and test data ( Their descriptions are equivalent ): 
-
 * 'train/subject_train.txt': 
 	+ Each row identifies the subject who performed the activity for each window sample. 
-	+ Its range is from 1 to 30. 
+	+ Its range is from 1 to 30.
+ 
+* 'test/subject_test.txt': 
+	+ Each row identifies the subject who performed the activity for each window sample. 
+	+ Its range is from 1 to 30.
 
-* 'train/Inertial Signals/total_acc_x_train.txt': 
-	+ The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. 
-	+ Every row shows a 128 element vector. 
-	+ The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
+* 'train/Inertial Signals/': not used
 
-* 'train/Inertial Signals/body_acc_x_train.txt': 
-	+The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
-
-* 'train/Inertial Signals/body_gyro_x_train.txt': 
-	+ The angular velocity vector measured by the gyroscope for each window sample. 
-	+ The units are radians/second.
+* 'test/Inertial Signals/': not used
 
 ***
 
