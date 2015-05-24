@@ -5,24 +5,24 @@
 
 ***
 
-## Purpose of Project:
+#### Purpose of Project:
 
 Demonstrate your ability to collect, work with, and clean a data set.
 
 ***
 
-## Project Requirements: 
+#### Items to be submitted for evaluation: 
 
 Submit the link to a Github repository that contains the following items:
 
 1. a tidy data set that can be used for analysis
 2. a script for performing the analysis ( run_analysis.R )
-3. a document that describes the variables, the data, and any transformations ( CodeBook.md ).
-4. a document that explains how all of the scripts work and how they are connected ( Readme.md). 
+3. a document that describes the variables, the data, and any transformations ( CODEBOOK.md ).
+4. a document that explains how all of the scripts work and how they are connected ( README.md). 
 
 ***
 
-## Analysis Script Requirements:
+#### Step-by-Step of the Analysis Script:
 
 1. Merge the training and the test datasets to create one dataset.
 2. Extract only the measurements on the mean and standard deviation for each measurement. 
@@ -34,7 +34,7 @@ Note: Upload the dataset as a .txt file created with write.table() using row.nam
 
 ***
 
-## Data Source Description:
+#### Data Source Information:
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.
  
@@ -42,27 +42,14 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 
 we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. 
 
-The experiments have been video-recorded to label the data manually. 
-
-The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected 
-for generating the training data and 30% the test data. 
-
-The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled 
-in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). 
-
-The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth 
-low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, 
-therefore a filter with 0.3 Hz cutoff frequency was used. 
-
-From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
-
 Check the README.txt file for further details about this dataset. 
 
+Detailed information about the original Data Source can be found by following the link below:  
 [link] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 ***
 
-## Data files Information:
+#### Data files Information:
 
 * 'README.txt'
 
@@ -101,7 +88,7 @@ The following files are available for the train and test data ( Their descriptio
 
 ***
 
-## Attribute Information:
+#### Attribute Information:
 
 For each record in the dataset it is provided: 
 

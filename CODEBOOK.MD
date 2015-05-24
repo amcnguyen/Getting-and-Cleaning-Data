@@ -5,13 +5,13 @@
 
 ***
 
-## Purpose of document:
+#### Purpose of document:
 
 Describe the variables, the data, and any transformations or work that you performed to clean up the data .
 
 ***
 
-## Process Description:
+#### Process Description:
 
 1. Merge the training and the test datasets to create one dataset.
 2. Extract only the measurements on the mean and standard deviation for each measurement. 
@@ -21,14 +21,16 @@ Describe the variables, the data, and any transformations or work that you perfo
 
 ***
 
-## Data File Description: 
+#### Data File Description: 
 
 Submit the link to a Github repository that contains the following items:
 
 1. Create a tidy data set that can be used for analysis
 2. Upload the dataset as a .txt file created with write.table() using row.name=FALSE
 
-## Attribute Information:
+***
+
+#### Attribute Information:
 
 For each record in the dataset it is provided: 
 
